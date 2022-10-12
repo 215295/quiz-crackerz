@@ -6,9 +6,9 @@ import Blog from './components/Blog/Blog';
 
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Home from './components/Home/Home';
-import Main from './components/Layout/Main';
-import QuizDetails from './components/QuizDetails/QuizDetails';
-import Rechart from './components/Rechart/Rechart';
+import Main from './components/main/Main';
+import QuizDetails from './components/quizDetails/QuizDetails';
+import Rechart from './components/rechart/Rechart';
 
 function App() {
   const router = createBrowserRouter([
