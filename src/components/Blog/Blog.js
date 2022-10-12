@@ -22,7 +22,7 @@ const Blog = () => {
 
 
 
-            <div className="card w-4/5 m-auto mt-10 bg-amber-600 shadow-xl rounded p-5">
+            <div className="card w-4/5 m-auto mb-10 mt-10 bg-amber-600 shadow-xl rounded p-5">
                 <div className="card-body">
                     <h2 className="card-title text-white text-2xl"> 3. What is useHref  ?</h2>
                     <p className='text-lg text-white'>The useHref hook returns a URL that may be used to link to the given to location, even outside of React Router.You may be interested in taking a look at the source for the link component in react-router-dom to see how it uses useHref internally to determine its own href </p>
