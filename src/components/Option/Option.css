@@ -1,0 +1,14 @@
+.option {
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+
+}
+
+.option:hover {
+
+    background-color: gray;
+    color: white
+}
