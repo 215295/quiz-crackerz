@@ -35,7 +35,7 @@ function App() {
           }, element: <QuizDetails></QuizDetails>
 
         },
-//llll
+
 
         {
           path: '/rechart', loader: async () => {
