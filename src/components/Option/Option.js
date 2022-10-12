@@ -25,8 +25,8 @@ const Option = ({ option, detail }) => {
     return (
         <div>
             <ul>
-                <Link onClick={haddAdd} > <li key={option.index} className='option bg-green-200'>
-                    <span className=' text-1xl'> <input type='checkbox' /></span> {option}
+                <Link onClick={haddAdd} > <li key={option.index} className='option bg-lime-700'>
+                    <span className=' text-1xl rounded-full'> <input type='checkbox' className='rounded-full' /></span> {option}
 
                 </li></Link>
 
