@@ -13,7 +13,7 @@ const QuizDetails = () => {
     return (
         <div>
 
-            <h1 className='bg-lime-700 d-flex container  mt-16  w-1/2 text-3xl '> Quiz of {details.name} </h1>
+            <h1 className='bg-lime-700 d-flex container p-5 mt-16  w-1/2 text-3xl '> Quiz of {details.name} </h1>
 
             {
                 details.questions.map(detail => <Details key={detail.id} detail={detail}  > </Details>)
